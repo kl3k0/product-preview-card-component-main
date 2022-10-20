@@ -57,7 +57,11 @@ span {
 }
 
 .btn-primary:hover{
-  background-color: hsl(158, 40%, 20%);
+  background-color: hsl(158, 40%, 30%);
+}
+
+.btn-primary:active {
+  --bs-btn-active-bg: hsl(158, 40%, 20%);
 }
 
 .container {
